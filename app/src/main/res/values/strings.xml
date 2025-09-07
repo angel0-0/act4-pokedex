@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">act 4</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pokedex">pokedex</string>
+    <string name="rayquaza">rayquaza</string>
+    <string name="gyarados">gyarados</string>
+
 </resources>

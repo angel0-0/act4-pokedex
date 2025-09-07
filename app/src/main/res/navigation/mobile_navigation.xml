@@ -1,0 +1,20 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_pokedex">
+
+    <fragment
+        android:id="@+id/nav_pokedex"
+        android:name="com.angel.act4.ui.pokedex.PokedexFragment"
+        android:label="Pokedex" />
+
+    <fragment
+        android:id="@+id/nav_rayquaza"
+        android:name="com.angel.act4.ui.rayquaza.RayquazaFragment"
+        android:label="Rayquaza" />
+
+    <fragment
+        android:id="@+id/nav_gyarados"
+        android:name="com.angel.act4.ui.gyarados.GyaradosFragment"
+        android:label="Gyarados" />
+</navigation>
